@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="player">
+        <div class="dashboard">
+            <!-- Header -->
+            <div class="header">
+                <h4>Now playing:</h4>
+                <h2>String 57th & 9th</h2>
+            </div>
+            <!-- CD player -->
+            <div class="cd">
+                <div style="background-image: url(./image/bat_nhac_len.jpg);" class="cd__thumb"></div>
+            </div>
+            <!-- Control -->
+            <div class="control">
+                <div class="btn play-back">
+                    <i class="fa-solid fa-rotate-left"></i>
+                </div>
+                <div class="btn play-backward">
+                    <i class="fa-solid fa-backward-step"></i>
+                </div>
+                <div class="btn play">
+                    <i class="fa-solid fa-stop"></i>
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="btn play-foward">
+                    <i class="fa-solid fa-forward-step"></i>
+                </div>
+                <div class="btn shuffle">
+                    <i class="fa-solid fa-shuffle"></i>
+                </div>
+            </div>
+            <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+            <audio autoplay id="audio">
+                <!-- <source src="./music/BatNhacLen1-HIEUTHUHAIHarmonie-6351919.mp3" type="audio/mpeg"> -->
+            </audio>
+        </div>
+        <!-- playsit -->
+        <div class="playsit">
+            
+        </div>
+    </div>
+</body>
+<script src="./css/main.js"></script>
+</html>
